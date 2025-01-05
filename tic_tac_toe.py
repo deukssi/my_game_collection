@@ -11,7 +11,7 @@ window.fill((255, 255, 255))
 pygame.display.set_caption("Basic Tic-Tac-Toe")
 
 clock = pygame.time.Clock()
-frame_rate = 600
+frame_rate = 60
 
 p1 = True
 running = True
