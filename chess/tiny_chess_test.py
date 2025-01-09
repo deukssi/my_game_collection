@@ -85,8 +85,8 @@ while running:
 
     draw_squares()
     write_letters()
-    #if sl:
-    #    write_text(window, "Selected: " + str(sl), (200, 200), (0, 0, 0), 36, None)
+    if sl:
+        write_text(window, "Selected: " + str(sl), (200, 200), (0, 0, 0), 36, None)
 
     pygame.display.flip()
 
